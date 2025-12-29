@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color: #f8fafc;
+}
+
+
+.title{
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #60a5fa;
+}
+.sub-title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0f172a;   
+}
+
+.main-section{
+    width: 50%;
+    margin: 3rem 0 0 25rem;
+    background-color: #E0F2FE;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.main-section:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.course-name{
+    font-size: 1.5rem;
+    color: #096eea;
+    font-weight: 600;
+}
+.abt-course{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.course-details{
+    font-size: 1.4rem;
+    font-weight: 500;   
+}
